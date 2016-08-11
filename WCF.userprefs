@@ -1,21 +1,24 @@
-﻿<Properties>
-  <StartupItems>
-    <String>Host/Host.csproj</String>
-    <String>Client/Client.csproj</String>
-  </StartupItems>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Host/Program.cs">
+﻿<Properties StartupItem="Host/Host.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="GreeterWcfService/HometerraceService.cs">
     <Files>
-      <File FileName="Host/Program.cs" Line="23" Column="2" />
-      <File FileName="Client/Program.cs" Line="10" Column="3" />
-      <File FileName="GreeterWcfService/GreeterWcfService.cs" Line="10" Column="2" />
-      <File FileName="GreeterWcfService/IGreeterWcfService.cs" Line="12" Column="1" />
-      <File FileName="Client/MyServiceClient.cs" Line="13" Column="3" />
-      <File FileName="Client/IGreeterWcfService.cs" Line="10" Column="3" />
+      <File FileName="GreeterWcfService/HometerraceService.cs" Line="22" Column="4" />
+      <File FileName="Client/Program.cs" Line="1" Column="1" />
+      <File FileName="Client/MyServiceClient.cs" Line="7" Column="2" />
+      <File FileName="Host/Program.cs" Line="15" Column="48" />
+      <File FileName="GreeterWcfService/IHomeTerraceService.cs" Line="16" Column="22" />
+      <File FileName="Client/IGreeterWcfService.cs" Line="11" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/GreeterWcfService/GreeterWcfService.cs" line="12" column="1" />
+      <Breakpoint file="/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/GreeterWcfService/HometerraceService.cs" line="32" column="1" />
+      <Breakpoint file="/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/GreeterWcfService/HometerraceService.cs" line="41" column="1" />
+      <Breakpoint file="/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/GreeterWcfService/HometerraceService.cs" line="51" column="1" />
+      <Breakpoint file="/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/GreeterWcfService/HometerraceService.cs" line="63" column="1" />
+      <Breakpoint file="/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/GreeterWcfService/HometerraceService.cs" line="12" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

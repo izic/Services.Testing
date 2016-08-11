@@ -1,29 +1,68 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{094020E9-2CB1-4A64-BF06-FA655254B9C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.HomeTerraceService", "Client\Client.HomeTerraceService.csproj", "{094020E9-2CB1-4A64-BF06-FA655254B9C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "GreeterWcfService\Service.csproj", "{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.HomeTerraceService", "Service.HomeTerraceService\Service.HomeTerraceService.csproj", "{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{7E2FA30A-A56E-4276-96EA-DF7B692BB0AA}"
+	ProjectSection(SolutionItems) = preProject
+		HomeAutomationServiceScript.sh = HomeAutomationServiceScript.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B1A854D4-726C-4DE8-AB30-56B5FF444B7B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
 		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|x86.ActiveCfg = Debug|x86
-		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|x86.Build.0 = Debug|x86
-		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|x86.ActiveCfg = Release|x86
-		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|x86.Build.0 = Release|x86
-		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|x86.Build.0 = Debug|Any CPU
-		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|x86.ActiveCfg = Release|Any CPU
-		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|x86.Build.0 = Release|Any CPU
+		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Debug|Mixed Platforms.Build.0 = Debug|x86
 		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Debug|x86.ActiveCfg = Debug|x86
 		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Debug|x86.Build.0 = Debug|x86
+		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Release|Any CPU.ActiveCfg = Release|x86
+		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Release|Mixed Platforms.Build.0 = Release|x86
 		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Release|x86.ActiveCfg = Release|x86
 		{C722BDD8-1E4F-43D9-8DE9-47A929D7A463}.Release|x86.Build.0 = Release|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|x86.ActiveCfg = Debug|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Debug|x86.Build.0 = Debug|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|Any CPU.ActiveCfg = Release|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|Mixed Platforms.Build.0 = Release|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|x86.ActiveCfg = Release|x86
+		{094020E9-2CB1-4A64-BF06-FA655254B9C2}.Release|x86.Build.0 = Release|x86
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

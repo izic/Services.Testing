@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -6,7 +6,7 @@
     <ProjectGuid>{094020E9-2CB1-4A64-BF06-FA655254B9C2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Client</RootNamespace>
-    <AssemblyName>Client</AssemblyName>
+    <AssemblyName>Client.HomeTerraceService</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -39,11 +39,11 @@
     <Compile Include="MyServiceClient.cs" />
     <Compile Include="IGreeterWcfService.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\GreeterWcfService\Service.csproj">
-      <Project>{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}</Project>
-      <Name>Service</Name>
+    <ProjectReference Include="..\Service.HomeTerraceService\Service.HomeTerraceService.csproj">
+      <Project>{abdd2775-2812-4c5b-94af-3e0f9c7b61f3}</Project>
+      <Name>Service.HomeTerraceService</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

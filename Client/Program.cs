@@ -11,7 +11,7 @@ namespace Client
 			Console.WriteLine ("WCF Client\n");
 			string name = "";
 			var binding = new BasicHttpBinding ();
-			var address = new EndpointAddress ("http://localhost:8080");
+			var address = new EndpointAddress ("http://localhost:8090");
 			var client = new MyServiceClient (binding, address);
 
 
