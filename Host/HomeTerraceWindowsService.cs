@@ -79,7 +79,7 @@ namespace Host
 
         private static void RegisterTypes(IUnityContainer container)
         {
-            container.RegisterType(typeof(IHomeTerraceService), typeof(HomeTerace));
+            container.RegisterType(typeof(IHomeTerraceService), typeof(HomeTeraceDummy));
             container.RegisterType<HomeTerraceService>(new InjectionConstructor(container.Resolve<IHomeTerraceService>()));
         }
     }
