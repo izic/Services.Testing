@@ -1,3 +1,5 @@
+#!/bin/bash
+
 PROGRAM_NAME="Host"
 LOCK_FILE="/tmp/"${PROGRAM_NAME}".lock"
  
@@ -26,7 +28,9 @@ stop()
  
 start()
 {
+    echo "Demon starting"
     mono-service -l:${LOCK_FILE} ./${PROGRAM_NAME}.exe
+    echo "Demon started"
 }
  
 case $1 in
