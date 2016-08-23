@@ -75,7 +75,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <None Include="..\HomeAutomationServiceScript.sh">
-      <Link>Linux\HomeAutomationServiceScript.sh</Link>
+      <Link>HomeAutomationServiceScript.sh</Link>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config" />
