@@ -27,10 +27,8 @@ stop()
 }
  
 start()
-{
-    echo "Demon starting"
-    mono-service -l:${LOCK_FILE} ./${PROGRAM_NAME}.exe
-    echo "Demon started"
+{ 
+    mono-service -l:${LOCK_FILE} ./${PROGRAM_NAME}.exe 
 }
  
 case $1 in
