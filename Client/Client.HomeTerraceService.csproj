@@ -32,6 +32,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="log4net">
+      <HintPath>..\packages\log4net.2.0.5\lib\net45-full\log4net.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
@@ -41,9 +44,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Service.HomeTerraceService\Service.HomeTerraceService.csproj">
-      <Project>{abdd2775-2812-4c5b-94af-3e0f9c7b61f3}</Project>
+      <Project>{ABDD2775-2812-4C5B-94AF-3E0F9C7B61F3}</Project>
       <Name>Service.HomeTerraceService</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
 </Project>

@@ -31,6 +31,8 @@ namespace Host
         // Start the Windows service.
         protected override void OnStart(string[] args)
         {
+
+
             if (_serviceHost != null)
             {
                 _serviceHost.Close();
@@ -79,7 +81,7 @@ namespace Host
 
         private static void RegisterTypes(IUnityContainer container)
         {
-            container.RegisterType(typeof(IHomeTerraceService), typeof(HomeTeraceDummy));
+            container.RegisterType(typeof(IHomeTerraceService), typeof(HomeTerace));
             container.RegisterType<HomeTerraceService>(new InjectionConstructor(container.Resolve<IHomeTerraceService>()));
         }
     }

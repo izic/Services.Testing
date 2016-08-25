@@ -1,13 +1,15 @@
-﻿<Properties StartupItem="Host/Host.csproj">
+﻿<Properties StartupItem="Client/Client.HomeTerraceService.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="GreeterWcfService/HometerraceService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Service.HomeTerraceService/HomeTerace.cs">
     <Files>
-      <File FileName="GreeterWcfService/HometerraceService.cs" Line="22" Column="4" />
-      <File FileName="Client/Program.cs" Line="1" Column="1" />
-      <File FileName="Client/MyServiceClient.cs" Line="7" Column="2" />
-      <File FileName="Host/Program.cs" Line="15" Column="48" />
-      <File FileName="GreeterWcfService/IHomeTerraceService.cs" Line="16" Column="22" />
-      <File FileName="Client/IGreeterWcfService.cs" Line="11" Column="2" />
+      <File FileName="Client/Program.cs" Line="34" Column="32" />
+      <File FileName="Client/MyServiceClient.cs" Line="1" Column="1" />
+      <File FileName="Host/Program.cs" Line="1" Column="1" />
+      <File FileName="Client/IGreeterWcfService.cs" Line="1" Column="1" />
+      <File FileName="HomeAutomationServiceScript.sh" Line="9" Column="2" />
+      <File FileName="Service.HomeTerraceService/HomeTerace.cs" Line="44" Column="37" />
+      <File FileName="Service.HomeTerraceService/HomeTeraceDummy.cs" Line="33" Column="10" />
+      <File FileName="Service.HomeTerraceService/HometerraceService.cs" Line="24" Column="6" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

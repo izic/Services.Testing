@@ -1,7 +1,8 @@
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/obj/x86/Debug/Host.HomeTerraceWindowsService.resources
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/obj/x86/Debug/Host.ProjectInstaller.resources
-/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Linux/HomeAutomationServiceScript.sh
+/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/HomeAutomationServiceScript.sh
+/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Host.exe.config
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Host.exe.mdb
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Host.exe
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/obj/x86/Debug/Host.exe
@@ -10,6 +11,7 @@
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Microsoft.Practices.Unity.Configuration.dll
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Microsoft.Practices.Unity.RegistrationByConvention.dll
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Microsoft.Practices.Unity.dll
+/home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/log4net.dll
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Service.HomeTerraceService.dll
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Service.HomeTerraceService.dll.mdb
 /home/izic/Dokumenti/Programming/WCF/mono-wcf-example/Services.Testing/Host/bin/Debug/Raspberry.IO.GeneralPurpose.dll
