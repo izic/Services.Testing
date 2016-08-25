@@ -27,17 +27,21 @@ namespace Host
 
         public static void Main()
         {
+            // for debugging, ... read configuration, ...
+            var val = ConfigurationManager.AppSettings["StartAsService"];
+            bool startAsService;
+            bool.TryParse(val, out startAsService);
 
-            // for debugging, ...
-            if (true)
+            if (startAsService)
             {
+                ServiceBase.Run(new HomeTerraceWindowsService());
+            } else {
                 var svc = new HomeTerraceWindowsService();
                 svc.OnStart(null);
                 Console.ReadLine();
                 svc.Stop();
             }
-            else
-            ServiceBase.Run(new HomeTerraceWindowsService());
+                       
         }
 
         // Start the Windows service.
