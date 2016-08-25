@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Diagnostics;
 using System.Linq;
@@ -10,6 +11,7 @@ using System.ServiceProcess;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
+using Microsoft.Practices.Unity.Configuration;
 using Service;
 
 namespace Host
@@ -25,6 +27,16 @@ namespace Host
 
         public static void Main()
         {
+
+            // for debugging, ...
+            if (true)
+            {
+                var svc = new HomeTerraceWindowsService();
+                svc.OnStart(null);
+                Console.ReadLine();
+                svc.Stop();
+            }
+            else
             ServiceBase.Run(new HomeTerraceWindowsService());
         }
 
@@ -79,7 +91,8 @@ namespace Host
 
         private static void RegisterTypes(IUnityContainer container)
         {
-            container.RegisterType(typeof(IHomeTerraceService), typeof(HomeTeraceDummy));
+            container.LoadConfiguration(); // line above should be setup from the app.config
+            //container.RegisterType(typeof(IHomeTerraceService), typeof(HomeTeraceDummy));
             container.RegisterType<HomeTerraceService>(new InjectionConstructor(container.Resolve<IHomeTerraceService>()));
         }
     }
